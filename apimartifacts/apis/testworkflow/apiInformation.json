@@ -1,18 +1,15 @@
 {
   "properties": {
     "apiRevision": "1",
-    "authenticationSettings": {
-      "oAuth2": {
-        "authorizationServerId": "developerportal"
-      }
-    },
-    "displayName": "Echo API",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "testworkflow",
     "isCurrent": true,
-    "path": "echo",
+    "path": "testworkflow",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "http://echoapi.cloudapp.net/api",
+    "serviceUrl": "https://logic-spoke-001.azurewebsites.net:443/api/",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"

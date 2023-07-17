@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "davinci",
+    "displayName": "davinci",
+    "state": "notPublished",
+    "subscriptionRequired": true
+  }
+}
