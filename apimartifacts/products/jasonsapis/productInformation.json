@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "Testing",
+    "displayName": "JasonsAPIS",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}

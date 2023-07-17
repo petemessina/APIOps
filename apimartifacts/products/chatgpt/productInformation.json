@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "ChatGPT",
+    "displayName": "ChatGPT",
+    "state": "notPublished",
+    "subscriptionRequired": true
+  }
+}

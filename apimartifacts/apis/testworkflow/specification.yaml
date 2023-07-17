@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  title: testworkflow
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apim-contosohub-001.azure-api.net/testworkflow
+paths:
+  /testflow/triggers/When_a_HTTP_request_is_received/invoke:
+    get:
+      summary: testworkflow
+      operationId: testworkflow
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
